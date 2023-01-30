@@ -6,7 +6,7 @@ name: Continuous Integration Build
 on: 
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
