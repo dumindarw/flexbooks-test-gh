@@ -10,7 +10,7 @@ describe('Integration Tests', () => {
       })
   })
 
-  test('hello', async () => {
+  test("hello", async () => {
     await supertest(app).get('/hello').expect(200)
       .then((res) => {
         expect(res.body).toStrictEqual({ message: 'Hello Githook' })
