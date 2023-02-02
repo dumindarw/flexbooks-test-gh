@@ -2,8 +2,6 @@
 const express = require('express')
 // const _ = require('underscore')
 
-// test
-
 const app = express()
 
 // const stringifyObj2 = (o, location) => JSON.stringify({ name: o.name, location })
