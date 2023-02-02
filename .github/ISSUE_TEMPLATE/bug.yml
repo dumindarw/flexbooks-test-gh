@@ -1,4 +1,4 @@
-name: Bug Issue
+name: Bug
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
@@ -29,3 +29,9 @@ body:
       label: Relevant log output (If any)
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: textarea
+    id: images
+    attributes:
+      label: Images/ Videos
+      description: Please add images (if any)
+      render: shell      

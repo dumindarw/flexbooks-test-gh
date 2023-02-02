@@ -1,0 +1,31 @@
+name: Feature Request
+description: Suggest an improvement or a new feature for Flexbooks project
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to contribute to the Flexbooks project!. Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues
+  - type: textarea
+    id: summary
+    attributes:
+      label: Describe your feature idea
+      description: Give a brief description of the feature or enhancement you would like to add
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why the feature is important ?
+      description: Describe the problem you are facing. Please provide an overview of the current situation and illustrate potential problems or shortcomings
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description:
+        Describe you tried or ideas to implement the feature
+    validations:
+      required: false
