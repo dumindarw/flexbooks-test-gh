@@ -7,11 +7,6 @@ Assignees: @
 
 ---
 
-| Description  | What Issue is this PR related to? | Labels | Assignees |
-| ------------- | ------------- | ----------|--------- |
-| Some Description| #x | enhancement/bug | @someassignee|
-
-
 ### Types of changes comes with this PR:
 
 * [ ] Bug fix (non-breaking change which fixes an issue)
