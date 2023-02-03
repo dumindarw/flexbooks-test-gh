@@ -1,0 +1,30 @@
+name: Task
+description: Add a task/chore for Flexbooks project
+title: "[Task]: "
+labels: ["tech-debt"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to contribute to the Flexbooks project!. Please fill below information about tha Task/Chore.
+    id: summary
+    attributes:
+      label: Describe the Task/Chore
+      description: Give a brief description of the task 
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this task is required ?
+      description: Describe why the task is important (reason of doing the task)
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information about the Task/Chore
+      description:
+        Describe steps to follow , procedures etc.
+    validations:
+      required: false
