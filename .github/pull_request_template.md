@@ -1,9 +1,9 @@
 
 ---
-Description: PR Description
-What Issue is this PR related to?: #x
-Labels: enhancement
-Assignees: @assignee
+What Issue is this PR related to?: #
+Description: 
+Labels: enhancement/bug
+Assignees: @
 
 ---
 
