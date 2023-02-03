@@ -1,5 +1,15 @@
-## Description
-<!-- Add a brief description of the pr -->
+
+---
+Description: PR Description
+What Issue is this PR related to?: #x
+Labels: enhancement
+Assignees: @assignee
+
+---
+
+| Description  | What Issue is this PR related to? | Labels | Assignees |
+| ------------- | ------------- | ----------|--------- |
+| Some Description| #x | enhancement/bug | @someassignee|
 
 
 ### Types of changes comes with this PR:
@@ -8,5 +18,10 @@
 * [ ] Enhancement (modification of the currently available functionality)
 * [ ] New feature (non-breaking change which adds functionality)
 * [ ] Breaking change (fix or feature that would cause existing functionality to change)
+
+### Merge Checklist
+
+* [ ] Added tests / Tests unnecessary
+* [ ] Have you successfully ran tests with your changes locally?
 
 <!-- Mark completed items with an [x] -->
