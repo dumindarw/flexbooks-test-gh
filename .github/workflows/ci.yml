@@ -50,4 +50,4 @@ jobs:
         run: pnpm install
 
       - name: Run tests
-        run: pnpm run test-placeholder
+        run: pnpm run test
